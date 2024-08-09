@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+}
+
+.socialLinksProfile {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  max-width: 85%;
+}
+
+.socialLinksProfile > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.socialLinksProfile > h2 {
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.socialLinksProfile > h4 {
+  margin-top: 9px;
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+}
+
+.socialLinksProfile > h5 {
+  margin-top: 20px;
+  color: #c7c5c5;
+  font-size: 14px;
+}
+
+.socialLinksProfile > div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.socialLinksProfile > div > a {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 11px 0px;
+  font-size: 15px;
+}
+
+.socialLinksProfile > div > a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
